@@ -36,3 +36,5 @@ def read_csv(input_file):
         data = list(reader)
 
     print(data)
+    
+    

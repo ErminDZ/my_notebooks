@@ -1,3 +1,16 @@
+import argparse
+if __name__ == '__main__':
+    parser= argparse.ArgumentParser(description='A program that downloads a URL and stores it locally')
+    parser.add_argument('filePath', help='The File path to process')
+    parser.add_argument('fileName',  help='The name of the file to process')
+    args = parser.parse_args()
+    print('FILE PATH:', args.filePath)
+    print('FILE NAME:', args.fileName)
+    
+
+
+
+
 def print_file_content(file):
     import csv
 
@@ -36,5 +49,3 @@ def read_csv(input_file):
         data = list(reader)
 
     print(data)
-    
-    

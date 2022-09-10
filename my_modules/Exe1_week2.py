@@ -8,9 +8,6 @@ if __name__ == '__main__':
     print('FILE NAME:', args.fileName)
     
 
-
-
-
 def print_file_content(file):
     import csv
 

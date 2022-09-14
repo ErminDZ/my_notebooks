@@ -76,7 +76,7 @@ def boolean_mask_above65():
     bef_stats_df = np.genfromtxt(filename, delimiter=',', dtype=np.uint, skip_header=1)
     dd = bef_stats_df
     
-    print('5. Create a boolean mask to find out how many people above 65 years lived in Copenhagen in 2015')
+    print('5. Create a boolean mask to find out how many people above 65 years lived in Copenhagen in 2015\n')
     
     xs = np.linspace(0, 2 * np.pi, 50)
     ys = np.sin(xs)

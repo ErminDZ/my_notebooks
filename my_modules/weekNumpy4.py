@@ -76,8 +76,23 @@ def boolean_mask_above65():
     bef_stats_df = np.genfromtxt(filename, delimiter=',', dtype=np.uint, skip_header=1)
     dd = bef_stats_df
     
-    print('5. Create a boolean mask to find out how many people above 65 years lived in Copenhagen in 2015\n')
+    print('5. Create a boolean mask to find out how many people above 65 years lived in Copenhagen in 2015?\n')
+    
+    mask_positiv = (dd[:,0] == 2015) &  (dd[:,3] == 5100) & (dd[:,2] >= 65)
+    data = np.sum(dd[mask_positiv][:,4])
+    
+    mask_negativ = (dd[:,0] == 2015) &  (dd[:,3] == 5100) & (dd[:,2] < 65)
+    data1 = np.sum(dd[mask_negativ][:,4])
+    
+    print(data)
+    print(data1)
     
     xs = np.linspace(0, 2 * np.pi, 50)
     ys = np.sin(xs)
     plt.plot(xs, ys)
+    
+    mask_positive = ys >= 0                        # condition for the blue crosses
+    plt.plot(xs[mask_positive], ys[mask_positive], 'bx')    # rendering the blue plots only with filtered values
+    mask_negative = (ys < 0)                       # condition for the green dots
+    plt.plot(xs[mask_negative], ys[mask_negative], 'go')    # condition applied to xs and ys data sets
+    plt.show()

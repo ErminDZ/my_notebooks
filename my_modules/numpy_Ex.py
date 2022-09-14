@@ -28,15 +28,24 @@ def masking_ex():
     evenNumbers = data[data%2==0]
 
     print('evenNumbers: ',evenNumbers)
+        
+def german_children():
+    import numpy as np
+    filename = './my_data/befkbhalderstatkode.csv'
+
+    bef_stats_df = np.genfromtxt(filename, delimiter=',', dtype=np.uint, skip_header=1)
+    dd = bef_stats_df
+
+    mask = (dd[:,0] == 2015) & (dd[:,2] == 0) & (dd[:,3] == 5180)
+    data = np.sum(dd[mask][:,4])
+
+    print('German children at age 0 in Denmark:', data)
     
     
-def week_ex():
+def takes_4_param():
     import numpy as np
     filename = './my_data/befkbhalderstatkode.csv'
     
     bef_stats_df = np.genfromtxt(filename, delimiter=',', dtype=np.uint, skip_header=1)
     dd = bef_stats_df 
-    mask = (dd[:,0]==2015) & (dd[:,1] == 1)
-    print(dd[mask])
-    
     

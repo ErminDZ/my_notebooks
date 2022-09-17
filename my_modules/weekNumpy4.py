@@ -90,8 +90,8 @@ def boolean_mask_above65():
     print('how many people above 65 years lived in Copenhagen: ', data)
     print('how many people under 65 years lived in Copenhagen: ',data1)
     
-    xs = np.linspace(0, 2 * np.pi, 50)
-    ys = np.sin(xs)
+    xs = np.linspace(0, 2 * np.pi, 50) #?
+    ys = np.sin(xs) #?
     plt.plot(xs, ys)
     
     mask_positive = ys >= 0                        # condition for the blue crosses

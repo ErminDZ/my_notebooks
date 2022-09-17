@@ -78,7 +78,7 @@ def slicing_dataframe2c():
     
 #________________________________________________________________________________
 ## 02 Exercise Pandas Data Series
-def panda_data_series1a():
+def panda_data_series1():
     import pandas as pd
     import numpy as np
     import matplotlib.pyplot as plt

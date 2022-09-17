@@ -96,3 +96,13 @@ def boolean_mask_above65():
     mask_negative = (ys < 0)                       # condition for the green dots
     plt.plot(xs[mask_negative], ys[mask_negative], 'go')    # condition applied to xs and ys data sets
     plt.show()
+    
+def other_nordic_countries():
+    import numpy as np
+    
+    filename = './my_data/befkbhalderstatkode.csv'
+    
+    bef_stats_df = np.genfromtxt(filename, delimiter=',', dtype=np.uint, skip_header=1)
+    dd = bef_stats_df
+    
+    print('6. How many of those were from the other nordic countries (not dk). Hint: see notebook: "04 Numpy"?\n ')

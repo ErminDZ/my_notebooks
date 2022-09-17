@@ -8,8 +8,9 @@ def lived_in_each_areas():
     neighb = {1: 'Indre By', 2: 'Østerbro', 3: 'Nørrebro', 4: 'Vesterbro/Kgs. Enghave', 
           5: 'Valby', 6: 'Vanløse', 7: 'Brønshøj-Husum', 8: 'Bispebjerg', 9: 'Amager Øst', 
           10: 'Amager Vest', 99: 'Udenfor'}
-    
+
     print('3. Find out how many people lived in each of the 11 areas in 2015?')
+    
     
     indreby_mask = (dd[:,0] == 2015) & (dd[:,1] == 1)
     print('\nIndre By: ',np.sum(dd[indreby_mask][:,4]))
@@ -42,8 +43,9 @@ def lived_in_each_areas():
     print('amager_vest: ',np.sum(dd[amager_vest_mask][:,4]))
     
     udenfor_mask = (dd[:,0] == 2015) & (dd[:,1] == 99)
-    print('udenfor: ',np.sum(dd[udenfor_mask][:,4]))
+    print('udenfor: ',np.sum(dd[udenfor_mask][:,4])) 
     
+#______________________________________________________________________________________________________________
     
 def bar_plot_city():
     import matplotlib.pyplot as plt
@@ -65,7 +67,8 @@ def bar_plot_city():
     
     plt.bar(list(set(dd[:,1])), (list(a)))
     plt.axis([1,10,3000,80000])
-    
+
+ #_____________________________________________________________________________________________________________
     
 def boolean_mask_above65():
     import matplotlib.pyplot as plt
@@ -78,14 +81,14 @@ def boolean_mask_above65():
     
     print('5. Create a boolean mask to find out how many people above 65 years lived in Copenhagen in 2015?\n')
     
-    mask_positiv = (dd[:,0] == 2015) &  (dd[:,3] == 5100) & (dd[:,2] >= 65)
+    mask_positiv = (dd[:,0] == 2015) &  (dd[:,3] == 5100) & (dd[:,2] > 65)
     data = np.sum(dd[mask_positiv][:,4])
     
     mask_negativ = (dd[:,0] == 2015) &  (dd[:,3] == 5100) & (dd[:,2] < 65)
     data1 = np.sum(dd[mask_negativ][:,4])
     
-    print(data)
-    print(data1)
+    print('how many people above 65 years lived in Copenhagen: ', data)
+    print('how many people under 65 years lived in Copenhagen: ',data1)
     
     xs = np.linspace(0, 2 * np.pi, 50)
     ys = np.sin(xs)
@@ -96,8 +99,42 @@ def boolean_mask_above65():
     mask_negative = (ys < 0)                       # condition for the green dots
     plt.plot(xs[mask_negative], ys[mask_negative], 'go')    # condition applied to xs and ys data sets
     plt.show()
+  
+ #_____________________________________________________________________________________________________________
     
 def other_nordic_countries():
+    import numpy as np
+
+    filename = './my_data/befkbhalderstatkode.csv'
+    country_codes = {5110: 'Norge', 5120: 'Sverige',5104: 'Finland',5106: 'Island',5101: 'Grønland'}
+    
+    bef_stats_df = np.genfromtxt(filename, delimiter=',', dtype=np.uint, skip_header=1)
+    dd = bef_stats_df
+    
+    print('6. How many of those were from the other nordic countries (not dk). Hint: see notebook: "04 Numpy"?\n ')
+    
+    data = dd
+    nordic_countries = ["Norge","Sverige","Finland","Island","Grønland"] 
+    old_nords = 0 
+    for x,y in country_codes.items(): 
+        if y in nordic_countries: 
+            #print(x) 
+            print(y) 
+            mask = (data[:,0] == 2015) & (data[:,2] > 65) & (data[:,3] == x) 
+            country_sum = (dd[mask][0:,4].sum()) 
+            print(country_sum)
+            old_nords += country_sum
+    print("Nordiske beboere over 65 år: ",old_nords) 
+
+    # control the sum by slicing a different way
+    control = dd[np.isin(dd[:,3],[5101,5104,5106,5110,5120])]
+    control = control[(control[:,0] == 2015) & (control[:,2]>65)]
+    control[:,4].sum()
+    
+ #_____________________________________________________________________________________________________________
+    
+def line_plot():
+    import matplotlib.pyplot as plt
     import numpy as np
     
     filename = './my_data/befkbhalderstatkode.csv'
@@ -105,4 +142,14 @@ def other_nordic_countries():
     bef_stats_df = np.genfromtxt(filename, delimiter=',', dtype=np.uint, skip_header=1)
     dd = bef_stats_df
     
-    print('6. How many of those were from the other nordic countries (not dk). Hint: see notebook: "04 Numpy"?\n ')
+    print("7. Make a line plot showing the changes of number of people in vesterbro and østerbro from 1992 to 2015?\n")
+    
+    østerbro_mask = (dd[:,0] == 2015) & (dd[:,1] == 2)
+    print('Østerbro: ',np.sum(dd[østerbro_mask][:,4]))
+    
+    vesterbro_kgs_enghave_mask = (dd[:,0] == 2015) & (dd[:,1] == 4)
+    print('Vesterbro/kgs_enghave: ',np.sum(dd[vesterbro_kgs_enghave_mask][:,4]))
+ 
+    xs = np.linspace(0, 2 * np.pi, 50)
+    ys = np.sin(xs)
+    plt.plot(xs, ys)

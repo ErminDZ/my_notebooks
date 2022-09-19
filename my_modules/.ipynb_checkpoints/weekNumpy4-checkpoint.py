@@ -62,6 +62,10 @@ def bar_plot_city():
     
     print('4. Make a bar plot to show the size of each city area from the smallest to the largest in 2015?\n')
     
+    #udenfor_mask = (dd[:,0] == 2015) & (dd[:,1])
+    #print('udenfor: ',np.sum(dd[udenfor_mask][:,4])) 
+    #udenfor_mask_sorted = udenfor_mask.sort()
+    
     a = np.array([51937,75113,78802,61623,51727,39537,43908,53604,55204,64967,3872])
     a.sort()
     
@@ -81,24 +85,14 @@ def boolean_mask_above65():
     
     print('5. Create a boolean mask to find out how many people above 65 years lived in Copenhagen in 2015?\n')
     
-    mask_positiv = (dd[:,0] == 2015) &  (dd[:,3] == 5100) & (dd[:,2] > 65)
-    data = np.sum(dd[mask_positiv][:,4])
+    over_65_mask = (dd[:,0] == 2015) &  (dd[:,3] == 5100) & (dd[:,2] > 65)
+    data = np.sum(dd[over_65_mask][:,4])
     
-    mask_negativ = (dd[:,0] == 2015) &  (dd[:,3] == 5100) & (dd[:,2] < 65)
-    data1 = np.sum(dd[mask_negativ][:,4])
+    under_65_mask = (dd[:,0] == 2015) &  (dd[:,3] == 5100) & (dd[:,2] < 65)
+    data1 = np.sum(dd[under_65_mask][:,4])
     
     print('how many people above 65 years lived in Copenhagen: ', data)
     print('how many people under 65 years lived in Copenhagen: ',data1)
-    
-    xs = np.linspace(0, 2 * np.pi, 50)
-    ys = np.sin(xs)
-    plt.plot(xs, ys)
-    
-    mask_positive = ys >= 0                        # condition for the blue crosses
-    plt.plot(xs[mask_positive], ys[mask_positive], 'bx')    # rendering the blue plots only with filtered values
-    mask_negative = (ys < 0)                       # condition for the green dots
-    plt.plot(xs[mask_negative], ys[mask_negative], 'go')    # condition applied to xs and ys data sets
-    plt.show()
   
  #_____________________________________________________________________________________________________________
     
@@ -149,7 +143,14 @@ def line_plot():
     
     vesterbro_kgs_enghave_mask = (dd[:,0] == 2015) & (dd[:,1] == 4)
     print('Vesterbro/kgs_enghave: ',np.sum(dd[vesterbro_kgs_enghave_mask][:,4]))
- 
-    xs = np.linspace(0, 2 * np.pi, 50)
-    ys = np.sin(xs)
-    plt.plot(xs, ys)
+    
+    test_mask = (dd[:,1] == 2) & (dd[:,3] == 5100) 
+
+    x = (dd[:,0])
+    y = (dd[:,0]) & np.sum((dd[test_mask])[:,4]) 
+
+    plt.title("Mennesker i Østerbro pr. år")
+    plt.xlabel("Årstal")
+    plt.ylabel("Antal Mennesker")
+    plt.plot(x,y,color = "red")
+    plt.show

@@ -127,7 +127,7 @@ def panda_dataframe1b():
     
     print("2. The 2 dates with the largest and smallest sum (by column)")
     
-    print(df)
+    print(df.max(dates))
     
 #________________________________________________________________________________________________ 
     

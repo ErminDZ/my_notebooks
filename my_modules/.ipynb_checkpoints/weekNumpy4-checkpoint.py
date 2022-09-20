@@ -11,7 +11,6 @@ def lived_in_each_areas():
 
     print('3. Find out how many people lived in each of the 11 areas in 2015?')
     
-    
     indreby_mask = (dd[:,0] == 2015) & (dd[:,1] == 1)
     print('\nIndre By: ',np.sum(dd[indreby_mask][:,4]))
     

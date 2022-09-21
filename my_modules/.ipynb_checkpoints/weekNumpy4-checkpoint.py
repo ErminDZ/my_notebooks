@@ -153,3 +153,25 @@ def line_plot():
     plt.ylabel("Antal Mennesker")
     plt.plot(x,y,color = "red")
     plt.show
+    
+    
+def learn_to_forloop(n,mask):
+    import numpy as np
+    filename = './my_data/befkbhalderstatkode.csv'
+    
+    bef_stats_df = np.genfromtxt(filename, delimiter=',', dtype=np.uint, skip_header=1)
+    dd = bef_stats_df 
+    
+    neighb = {1: 'Indre By', 2: 'Østerbro', 3: 'Nørrebro', 4: 'Vesterbro/Kgs. Enghave', 
+          5: 'Valby', 6: 'Vanløse', 7: 'Brønshøj-Husum', 8: 'Bispebjerg', 9: 'Amager Øst', 
+          10: 'Amager Vest', 99: 'Udenfor'}
+    
+    print('3. Find out how many people lived in each of the 11 areas in 2015?')
+    all_mask = (dd[:,0] == 2015) & (dd[:,1] == neighb)
+    for n in neighb.items():
+        if mask in all_mask:
+            city_sum_mask =  (dd[all_mask][0:,4].sum()) 
+            print(city_sum_mask)
+    
+    
+    

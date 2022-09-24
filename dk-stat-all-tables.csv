@@ -1,421 +1,253 @@
-,CIVILSTAND,TID,OMRÅDE,INDHOLD
-0,Ugift,2020K1,Hele landet,2844060
-1,Ugift,2020K1,Region Hovedstaden,973802
-2,Ugift,2020K1,København,412512
-3,Ugift,2020K1,Frederiksberg,60781
-4,Ugift,2020K1,Dragør,5844
-5,Ugift,2020K1,Tårnby,19947
-6,Ugift,2020K1,Albertslund,13795
-7,Ugift,2020K1,Ballerup,22371
-8,Ugift,2020K1,Brøndby,16245
-9,Ugift,2020K1,Gentofte,35130
-10,Ugift,2020K1,Gladsaxe,34731
-11,Ugift,2020K1,Glostrup,11193
-12,Ugift,2020K1,Herlev,13767
-13,Ugift,2020K1,Hvidovre,26533
-14,Ugift,2020K1,Høje-Taastrup,23532
-15,Ugift,2020K1,Ishøj,10808
-16,Ugift,2020K1,Lyngby-Taarbæk,27810
-17,Ugift,2020K1,Rødovre,20055
-18,Ugift,2020K1,Vallensbæk,7354
-19,Ugift,2020K1,Allerød,10586
-20,Ugift,2020K1,Egedal,18274
-21,Ugift,2020K1,Fredensborg,17135
-22,Ugift,2020K1,Frederikssund,18530
-23,Ugift,2020K1,Furesø,17443
-24,Ugift,2020K1,Gribskov,15993
-25,Ugift,2020K1,Halsnæs,12656
-26,Ugift,2020K1,Helsingør,27077
-27,Ugift,2020K1,Hillerød,23306
-28,Ugift,2020K1,Hørsholm,9677
-29,Ugift,2020K1,Rudersdal,24690
-30,Ugift,2020K1,Bornholm,15996
-31,Ugift,2020K1,Christiansø,31
-32,Ugift,2020K1,Region Sjælland,368715
-33,Ugift,2020K1,Greve,21016
-34,Ugift,2020K1,Køge,27189
-35,Ugift,2020K1,Lejre,11553
-36,Ugift,2020K1,Roskilde,41111
-37,Ugift,2020K1,Solrød,9955
-38,Ugift,2020K1,Faxe,15575
-39,Ugift,2020K1,Guldborgsund,25908
-40,Ugift,2020K1,Holbæk,32235
-41,Ugift,2020K1,Kalundborg,21163
-42,Ugift,2020K1,Lolland,17132
-43,Ugift,2020K1,Næstved,38119
-44,Ugift,2020K1,Odsherred,13011
-45,Ugift,2020K1,Ringsted,16052
-46,Ugift,2020K1,Slagelse,37269
-47,Ugift,2020K1,Sorø,13232
-48,Ugift,2020K1,Stevns,9085
-49,Ugift,2020K1,Vordingborg,19110
-50,Ugift,2020K1,Region Syddanmark,568126
-51,Ugift,2020K1,Assens,17711
-52,Ugift,2020K1,Faaborg-Midtfyn,22004
-53,Ugift,2020K1,Kerteminde,9789
-54,Ugift,2020K1,Langeland,4583
-55,Ugift,2020K1,Middelfart,16533
-56,Ugift,2020K1,Nordfyns,12701
-57,Ugift,2020K1,Nyborg,13803
-58,Ugift,2020K1,Odense,112490
-59,Ugift,2020K1,Svendborg,26178
-60,Ugift,2020K1,Ærø,2174
-61,Ugift,2020K1,Billund,11719
-62,Ugift,2020K1,Esbjerg,55014
-63,Ugift,2020K1,Fanø,1258
-64,Ugift,2020K1,Fredericia,23719
-65,Ugift,2020K1,Haderslev,24806
-66,Ugift,2020K1,Kolding,44898
-67,Ugift,2020K1,Sønderborg,32107
-68,Ugift,2020K1,Tønder,15874
-69,Ugift,2020K1,Varde,21766
-70,Ugift,2020K1,Vejen,19285
-71,Ugift,2020K1,Vejle,54448
-72,Ugift,2020K1,Aabenraa,25266
-73,Ugift,2020K1,Region Midtjylland,653428
-74,Ugift,2020K1,Favrskov,21794
-75,Ugift,2020K1,Hedensted,20301
-76,Ugift,2020K1,Horsens,44353
-77,Ugift,2020K1,Norddjurs,16360
-78,Ugift,2020K1,Odder,9599
-79,Ugift,2020K1,Randers,46936
-80,Ugift,2020K1,Samsø,1281
-81,Ugift,2020K1,Silkeborg,43672
-82,Ugift,2020K1,Skanderborg,28692
-83,Ugift,2020K1,Syddjurs,17996
-84,Ugift,2020K1,Aarhus,208509
-85,Ugift,2020K1,Herning,41719
-86,Ugift,2020K1,Holstebro,27357
-87,Ugift,2020K1,Ikast-Brande,18551
-88,Ugift,2020K1,Lemvig,7900
-89,Ugift,2020K1,Ringkøbing-Skjern,24254
-90,Ugift,2020K1,Skive,20222
-91,Ugift,2020K1,Struer,8562
-92,Ugift,2020K1,Viborg,45370
-93,Ugift,2020K1,Region Nordjylland,279989
-94,Ugift,2020K1,Brønderslev,16246
-95,Ugift,2020K1,Frederikshavn,24767
-96,Ugift,2020K1,Hjørring,28574
-97,Ugift,2020K1,Jammerbugt,16286
-98,Ugift,2020K1,Læsø,593
-99,Ugift,2020K1,Mariagerfjord,18168
-100,Ugift,2020K1,Morsø,8740
-101,Ugift,2020K1,Rebild,13553
-102,Ugift,2020K1,Thisted,18696
-103,Ugift,2020K1,Vesthimmerlands,16172
-104,Ugift,2020K1,Aalborg,118194
-105,Ugift,2020K2,Hele landet,2851131
-106,Ugift,2020K2,Region Hovedstaden,976457
-107,Ugift,2020K2,København,414072
-108,Ugift,2020K2,Frederiksberg,60894
-109,Ugift,2020K2,Dragør,5856
-110,Ugift,2020K2,Tårnby,19913
-111,Ugift,2020K2,Albertslund,13761
-112,Ugift,2020K2,Ballerup,22561
-113,Ugift,2020K2,Brøndby,16277
-114,Ugift,2020K2,Gentofte,35183
-115,Ugift,2020K2,Gladsaxe,34697
-116,Ugift,2020K2,Glostrup,11365
-117,Ugift,2020K2,Herlev,13786
-118,Ugift,2020K2,Hvidovre,26537
-119,Ugift,2020K2,Høje-Taastrup,23641
-120,Ugift,2020K2,Ishøj,10785
-121,Ugift,2020K2,Lyngby-Taarbæk,27922
-122,Ugift,2020K2,Rødovre,20083
-123,Ugift,2020K2,Vallensbæk,7331
-124,Ugift,2020K2,Allerød,10615
-125,Ugift,2020K2,Egedal,18342
-126,Ugift,2020K2,Fredensborg,17161
-127,Ugift,2020K2,Frederikssund,18589
-128,Ugift,2020K2,Furesø,17448
-129,Ugift,2020K2,Gribskov,15998
-130,Ugift,2020K2,Halsnæs,12747
-131,Ugift,2020K2,Helsingør,27202
-132,Ugift,2020K2,Hillerød,23323
-133,Ugift,2020K2,Hørsholm,9675
-134,Ugift,2020K2,Rudersdal,24669
-135,Ugift,2020K2,Bornholm,15992
-136,Ugift,2020K2,Christiansø,32
-137,Ugift,2020K2,Region Sjælland,369343
-138,Ugift,2020K2,Greve,20998
-139,Ugift,2020K2,Køge,27375
-140,Ugift,2020K2,Lejre,11549
-141,Ugift,2020K2,Roskilde,41460
-142,Ugift,2020K2,Solrød,9974
-143,Ugift,2020K2,Faxe,15574
-144,Ugift,2020K2,Guldborgsund,25856
-145,Ugift,2020K2,Holbæk,32268
-146,Ugift,2020K2,Kalundborg,21159
-147,Ugift,2020K2,Lolland,17081
-148,Ugift,2020K2,Næstved,38148
-149,Ugift,2020K2,Odsherred,12999
-150,Ugift,2020K2,Ringsted,16010
-151,Ugift,2020K2,Slagelse,37433
-152,Ugift,2020K2,Sorø,13262
-153,Ugift,2020K2,Stevns,9099
-154,Ugift,2020K2,Vordingborg,19098
-155,Ugift,2020K2,Region Syddanmark,569654
-156,Ugift,2020K2,Assens,17702
-157,Ugift,2020K2,Faaborg-Midtfyn,22026
-158,Ugift,2020K2,Kerteminde,9831
-159,Ugift,2020K2,Langeland,4549
-160,Ugift,2020K2,Middelfart,16597
-161,Ugift,2020K2,Nordfyns,12698
-162,Ugift,2020K2,Nyborg,13805
-163,Ugift,2020K2,Odense,112889
-164,Ugift,2020K2,Svendborg,26305
-165,Ugift,2020K2,Ærø,2186
-166,Ugift,2020K2,Billund,11761
-167,Ugift,2020K2,Esbjerg,55260
-168,Ugift,2020K2,Fanø,1260
-169,Ugift,2020K2,Fredericia,23782
-170,Ugift,2020K2,Haderslev,24875
-171,Ugift,2020K2,Kolding,45042
-172,Ugift,2020K2,Sønderborg,32126
-173,Ugift,2020K2,Tønder,15832
-174,Ugift,2020K2,Varde,21756
-175,Ugift,2020K2,Vejen,19270
-176,Ugift,2020K2,Vejle,54816
-177,Ugift,2020K2,Aabenraa,25286
-178,Ugift,2020K2,Region Midtjylland,655252
-179,Ugift,2020K2,Favrskov,21808
-180,Ugift,2020K2,Hedensted,20343
-181,Ugift,2020K2,Horsens,44498
-182,Ugift,2020K2,Norddjurs,16349
-183,Ugift,2020K2,Odder,9640
-184,Ugift,2020K2,Randers,47137
-185,Ugift,2020K2,Samsø,1270
-186,Ugift,2020K2,Silkeborg,43961
-187,Ugift,2020K2,Skanderborg,28934
-188,Ugift,2020K2,Syddjurs,18097
-189,Ugift,2020K2,Aarhus,208755
-190,Ugift,2020K2,Herning,41911
-191,Ugift,2020K2,Holstebro,27479
-192,Ugift,2020K2,Ikast-Brande,18627
-193,Ugift,2020K2,Lemvig,7922
-194,Ugift,2020K2,Ringkøbing-Skjern,24236
-195,Ugift,2020K2,Skive,20291
-196,Ugift,2020K2,Struer,8539
-197,Ugift,2020K2,Viborg,45455
-198,Ugift,2020K2,Region Nordjylland,280425
-199,Ugift,2020K2,Brønderslev,16310
-200,Ugift,2020K2,Frederikshavn,24778
-201,Ugift,2020K2,Hjørring,28589
-202,Ugift,2020K2,Jammerbugt,16405
-203,Ugift,2020K2,Læsø,605
-204,Ugift,2020K2,Mariagerfjord,18163
-205,Ugift,2020K2,Morsø,8742
-206,Ugift,2020K2,Rebild,13617
-207,Ugift,2020K2,Thisted,18710
-208,Ugift,2020K2,Vesthimmerlands,16151
-209,Ugift,2020K2,Aalborg,118355
-210,Ugift,2020K3,Hele landet,2854659
-211,Ugift,2020K3,Region Hovedstaden,977487
-212,Ugift,2020K3,København,414218
-213,Ugift,2020K3,Frederiksberg,60802
-214,Ugift,2020K3,Dragør,5866
-215,Ugift,2020K3,Tårnby,19945
-216,Ugift,2020K3,Albertslund,13726
-217,Ugift,2020K3,Ballerup,22667
-218,Ugift,2020K3,Brøndby,16299
-219,Ugift,2020K3,Gentofte,35169
-220,Ugift,2020K3,Gladsaxe,34752
-221,Ugift,2020K3,Glostrup,11386
-222,Ugift,2020K3,Herlev,13810
-223,Ugift,2020K3,Hvidovre,26581
-224,Ugift,2020K3,Høje-Taastrup,23728
-225,Ugift,2020K3,Ishøj,10873
-226,Ugift,2020K3,Lyngby-Taarbæk,27764
-227,Ugift,2020K3,Rødovre,20198
-228,Ugift,2020K3,Vallensbæk,7318
-229,Ugift,2020K3,Allerød,10605
-230,Ugift,2020K3,Egedal,18396
-231,Ugift,2020K3,Fredensborg,17247
-232,Ugift,2020K3,Frederikssund,18645
-233,Ugift,2020K3,Furesø,17505
-234,Ugift,2020K3,Gribskov,16036
-235,Ugift,2020K3,Halsnæs,12777
-236,Ugift,2020K3,Helsingør,27327
-237,Ugift,2020K3,Hillerød,23416
-238,Ugift,2020K3,Hørsholm,9648
-239,Ugift,2020K3,Rudersdal,24684
-240,Ugift,2020K3,Bornholm,16066
-241,Ugift,2020K3,Christiansø,33
-242,Ugift,2020K3,Region Sjælland,370346
-243,Ugift,2020K3,Greve,21065
-244,Ugift,2020K3,Køge,27447
-245,Ugift,2020K3,Lejre,11637
-246,Ugift,2020K3,Roskilde,41580
-247,Ugift,2020K3,Solrød,10065
-248,Ugift,2020K3,Faxe,15681
-249,Ugift,2020K3,Guldborgsund,25813
-250,Ugift,2020K3,Holbæk,32366
-251,Ugift,2020K3,Kalundborg,21195
-252,Ugift,2020K3,Lolland,17056
-253,Ugift,2020K3,Næstved,38262
-254,Ugift,2020K3,Odsherred,13051
-255,Ugift,2020K3,Ringsted,16089
-256,Ugift,2020K3,Slagelse,37477
-257,Ugift,2020K3,Sorø,13306
-258,Ugift,2020K3,Stevns,9138
-259,Ugift,2020K3,Vordingborg,19118
-260,Ugift,2020K3,Region Syddanmark,569849
-261,Ugift,2020K3,Assens,17664
-262,Ugift,2020K3,Faaborg-Midtfyn,22137
-263,Ugift,2020K3,Kerteminde,9831
-264,Ugift,2020K3,Langeland,4544
-265,Ugift,2020K3,Middelfart,16596
-266,Ugift,2020K3,Nordfyns,12670
-267,Ugift,2020K3,Nyborg,13827
-268,Ugift,2020K3,Odense,112672
-269,Ugift,2020K3,Svendborg,26281
-270,Ugift,2020K3,Ærø,2203
-271,Ugift,2020K3,Billund,11755
-272,Ugift,2020K3,Esbjerg,55330
-273,Ugift,2020K3,Fanø,1267
-274,Ugift,2020K3,Fredericia,23752
-275,Ugift,2020K3,Haderslev,24823
-276,Ugift,2020K3,Kolding,44969
-277,Ugift,2020K3,Sønderborg,32180
-278,Ugift,2020K3,Tønder,15764
-279,Ugift,2020K3,Varde,21706
-280,Ugift,2020K3,Vejen,19353
-281,Ugift,2020K3,Vejle,55161
-282,Ugift,2020K3,Aabenraa,25364
-283,Ugift,2020K3,Region Midtjylland,655924
-284,Ugift,2020K3,Favrskov,21843
-285,Ugift,2020K3,Hedensted,20335
-286,Ugift,2020K3,Horsens,44741
-287,Ugift,2020K3,Norddjurs,16375
-288,Ugift,2020K3,Odder,9603
-289,Ugift,2020K3,Randers,47342
-290,Ugift,2020K3,Samsø,1291
-291,Ugift,2020K3,Silkeborg,44180
-292,Ugift,2020K3,Skanderborg,29040
-293,Ugift,2020K3,Syddjurs,18125
-294,Ugift,2020K3,Aarhus,208470
-295,Ugift,2020K3,Herning,42075
-296,Ugift,2020K3,Holstebro,27545
-297,Ugift,2020K3,Ikast-Brande,18658
-298,Ugift,2020K3,Lemvig,7932
-299,Ugift,2020K3,Ringkøbing-Skjern,24244
-300,Ugift,2020K3,Skive,20206
-301,Ugift,2020K3,Struer,8496
-302,Ugift,2020K3,Viborg,45423
-303,Ugift,2020K3,Region Nordjylland,281053
-304,Ugift,2020K3,Brønderslev,16301
-305,Ugift,2020K3,Frederikshavn,24745
-306,Ugift,2020K3,Hjørring,28682
-307,Ugift,2020K3,Jammerbugt,16404
-308,Ugift,2020K3,Læsø,607
-309,Ugift,2020K3,Mariagerfjord,18150
-310,Ugift,2020K3,Morsø,8804
-311,Ugift,2020K3,Rebild,13751
-312,Ugift,2020K3,Thisted,18757
-313,Ugift,2020K3,Vesthimmerlands,16158
-314,Ugift,2020K3,Aalborg,118694
-315,Ugift,2020K4,Hele landet,2859116
-316,Ugift,2020K4,Region Hovedstaden,981652
-317,Ugift,2020K4,København,417782
-318,Ugift,2020K4,Frederiksberg,61020
-319,Ugift,2020K4,Dragør,5856
-320,Ugift,2020K4,Tårnby,19946
-321,Ugift,2020K4,Albertslund,13701
-322,Ugift,2020K4,Ballerup,22707
-323,Ugift,2020K4,Brøndby,16317
-324,Ugift,2020K4,Gentofte,35017
-325,Ugift,2020K4,Gladsaxe,34749
-326,Ugift,2020K4,Glostrup,11397
-327,Ugift,2020K4,Herlev,13798
-328,Ugift,2020K4,Hvidovre,26566
-329,Ugift,2020K4,Høje-Taastrup,23898
-330,Ugift,2020K4,Ishøj,10906
-331,Ugift,2020K4,Lyngby-Taarbæk,28229
-332,Ugift,2020K4,Rødovre,20234
-333,Ugift,2020K4,Vallensbæk,7276
-334,Ugift,2020K4,Allerød,10725
-335,Ugift,2020K4,Egedal,18371
-336,Ugift,2020K4,Fredensborg,17211
-337,Ugift,2020K4,Frederikssund,18591
-338,Ugift,2020K4,Furesø,17449
-339,Ugift,2020K4,Gribskov,15964
-340,Ugift,2020K4,Halsnæs,12741
-341,Ugift,2020K4,Helsingør,27234
-342,Ugift,2020K4,Hillerød,23405
-343,Ugift,2020K4,Hørsholm,9669
-344,Ugift,2020K4,Rudersdal,24844
-345,Ugift,2020K4,Bornholm,16014
-346,Ugift,2020K4,Christiansø,35
-347,Ugift,2020K4,Region Sjælland,369548
-348,Ugift,2020K4,Greve,21049
-349,Ugift,2020K4,Køge,27484
-350,Ugift,2020K4,Lejre,11615
-351,Ugift,2020K4,Roskilde,41680
-352,Ugift,2020K4,Solrød,10042
-353,Ugift,2020K4,Faxe,15597
-354,Ugift,2020K4,Guldborgsund,25683
-355,Ugift,2020K4,Holbæk,32373
-356,Ugift,2020K4,Kalundborg,21198
-357,Ugift,2020K4,Lolland,16916
-358,Ugift,2020K4,Næstved,38021
-359,Ugift,2020K4,Odsherred,12941
-360,Ugift,2020K4,Ringsted,16073
-361,Ugift,2020K4,Slagelse,37371
-362,Ugift,2020K4,Sorø,13338
-363,Ugift,2020K4,Stevns,9167
-364,Ugift,2020K4,Vordingborg,19000
-365,Ugift,2020K4,Region Syddanmark,568943
-366,Ugift,2020K4,Assens,17526
-367,Ugift,2020K4,Faaborg-Midtfyn,22113
-368,Ugift,2020K4,Kerteminde,9807
-369,Ugift,2020K4,Langeland,4500
-370,Ugift,2020K4,Middelfart,16533
-371,Ugift,2020K4,Nordfyns,12586
-372,Ugift,2020K4,Nyborg,13764
-373,Ugift,2020K4,Odense,113639
-374,Ugift,2020K4,Svendborg,26251
-375,Ugift,2020K4,Ærø,2179
-376,Ugift,2020K4,Billund,11695
-377,Ugift,2020K4,Esbjerg,55161
-378,Ugift,2020K4,Fanø,1229
-379,Ugift,2020K4,Fredericia,23602
-380,Ugift,2020K4,Haderslev,24725
-381,Ugift,2020K4,Kolding,44962
-382,Ugift,2020K4,Sønderborg,31983
-383,Ugift,2020K4,Tønder,15722
-384,Ugift,2020K4,Varde,21428
-385,Ugift,2020K4,Vejen,19277
-386,Ugift,2020K4,Vejle,55116
-387,Ugift,2020K4,Aabenraa,25145
-388,Ugift,2020K4,Region Midtjylland,657563
-389,Ugift,2020K4,Favrskov,21719
-390,Ugift,2020K4,Hedensted,20252
-391,Ugift,2020K4,Horsens,44832
-392,Ugift,2020K4,Norddjurs,16329
-393,Ugift,2020K4,Odder,9561
-394,Ugift,2020K4,Randers,47184
-395,Ugift,2020K4,Samsø,1299
-396,Ugift,2020K4,Silkeborg,44102
-397,Ugift,2020K4,Skanderborg,28963
-398,Ugift,2020K4,Syddjurs,18139
-399,Ugift,2020K4,Aarhus,211863
-400,Ugift,2020K4,Herning,41832
-401,Ugift,2020K4,Holstebro,27431
-402,Ugift,2020K4,Ikast-Brande,18585
-403,Ugift,2020K4,Lemvig,7852
-404,Ugift,2020K4,Ringkøbing-Skjern,24001
-405,Ugift,2020K4,Skive,19993
-406,Ugift,2020K4,Struer,8446
-407,Ugift,2020K4,Viborg,45180
-408,Ugift,2020K4,Region Nordjylland,281410
-409,Ugift,2020K4,Brønderslev,16204
-410,Ugift,2020K4,Frederikshavn,24560
-411,Ugift,2020K4,Hjørring,28482
-412,Ugift,2020K4,Jammerbugt,16352
-413,Ugift,2020K4,Læsø,589
-414,Ugift,2020K4,Mariagerfjord,17978
-415,Ugift,2020K4,Morsø,8721
-416,Ugift,2020K4,Rebild,13736
-417,Ugift,2020K4,Thisted,18597
-418,Ugift,2020K4,Vesthimmerlands,15965
-419,Ugift,2020K4,Aalborg,120226
+,TID,ALDER,CIVILSTAND,INDHOLD
+0,2022K3,0 år,Ugift,61982
+1,2022K3,0 år,Gift/separeret,0
+2,2022K3,1 år,Ugift,62688
+3,2022K3,1 år,Gift/separeret,0
+4,2022K3,2 år,Ugift,62795
+5,2022K3,2 år,Gift/separeret,0
+6,2022K3,3 år,Ugift,61930
+7,2022K3,3 år,Gift/separeret,0
+8,2022K3,4 år,Ugift,63326
+9,2022K3,4 år,Gift/separeret,0
+10,2022K3,5 år,Ugift,63468
+11,2022K3,5 år,Gift/separeret,0
+12,2022K3,6 år,Ugift,62254
+13,2022K3,6 år,Gift/separeret,0
+14,2022K3,7 år,Ugift,59609
+15,2022K3,7 år,Gift/separeret,0
+16,2022K3,8 år,Ugift,58986
+17,2022K3,8 år,Gift/separeret,0
+18,2022K3,9 år,Ugift,60861
+19,2022K3,9 år,Gift/separeret,0
+20,2022K3,10 år,Ugift,61949
+21,2022K3,10 år,Gift/separeret,0
+22,2022K3,11 år,Ugift,65152
+23,2022K3,11 år,Gift/separeret,0
+24,2022K3,12 år,Ugift,67570
+25,2022K3,12 år,Gift/separeret,0
+26,2022K3,13 år,Ugift,68918
+27,2022K3,13 år,Gift/separeret,0
+28,2022K3,14 år,Ugift,69321
+29,2022K3,14 år,Gift/separeret,0
+30,2022K3,15 år,Ugift,68611
+31,2022K3,15 år,Gift/separeret,0
+32,2022K3,16 år,Ugift,68969
+33,2022K3,16 år,Gift/separeret,0
+34,2022K3,17 år,Ugift,68889
+35,2022K3,17 år,Gift/separeret,0
+36,2022K3,18 år,Ugift,69399
+37,2022K3,18 år,Gift/separeret,12
+38,2022K3,19 år,Ugift,68744
+39,2022K3,19 år,Gift/separeret,92
+40,2022K3,20 år,Ugift,70400
+41,2022K3,20 år,Gift/separeret,228
+42,2022K3,21 år,Ugift,73466
+43,2022K3,21 år,Gift/separeret,561
+44,2022K3,22 år,Ugift,73985
+45,2022K3,22 år,Gift/separeret,995
+46,2022K3,23 år,Ugift,75006
+47,2022K3,23 år,Gift/separeret,1771
+48,2022K3,24 år,Ugift,74050
+49,2022K3,24 år,Gift/separeret,2868
+50,2022K3,25 år,Ugift,75536
+51,2022K3,25 år,Gift/separeret,4711
+52,2022K3,26 år,Ugift,73552
+53,2022K3,26 år,Gift/separeret,7005
+54,2022K3,27 år,Ugift,72627
+55,2022K3,27 år,Gift/separeret,10046
+56,2022K3,28 år,Ugift,66934
+57,2022K3,28 år,Gift/separeret,13693
+58,2022K3,29 år,Ugift,62774
+59,2022K3,29 år,Gift/separeret,17630
+60,2022K3,30 år,Ugift,57042
+61,2022K3,30 år,Gift/separeret,21558
+62,2022K3,31 år,Ugift,52698
+63,2022K3,31 år,Gift/separeret,24899
+64,2022K3,32 år,Ugift,47848
+65,2022K3,32 år,Gift/separeret,27693
+66,2022K3,33 år,Ugift,43315
+67,2022K3,33 år,Gift/separeret,29687
+68,2022K3,34 år,Ugift,38268
+69,2022K3,34 år,Gift/separeret,31259
+70,2022K3,35 år,Ugift,35042
+71,2022K3,35 år,Gift/separeret,32639
+72,2022K3,36 år,Ugift,32238
+73,2022K3,36 år,Gift/separeret,33377
+74,2022K3,37 år,Ugift,29087
+75,2022K3,37 år,Gift/separeret,33392
+76,2022K3,38 år,Ugift,26698
+77,2022K3,38 år,Gift/separeret,33805
+78,2022K3,39 år,Ugift,24924
+79,2022K3,39 år,Gift/separeret,34127
+80,2022K3,40 år,Ugift,23725
+81,2022K3,40 år,Gift/separeret,35770
+82,2022K3,41 år,Ugift,22791
+83,2022K3,41 år,Gift/separeret,36473
+84,2022K3,42 år,Ugift,22542
+85,2022K3,42 år,Gift/separeret,38811
+86,2022K3,43 år,Ugift,21792
+87,2022K3,43 år,Gift/separeret,39495
+88,2022K3,44 år,Ugift,20785
+89,2022K3,44 år,Gift/separeret,40228
+90,2022K3,45 år,Ugift,20255
+91,2022K3,45 år,Gift/separeret,40051
+92,2022K3,46 år,Ugift,20875
+93,2022K3,46 år,Gift/separeret,43296
+94,2022K3,47 år,Ugift,20442
+95,2022K3,47 år,Gift/separeret,44629
+96,2022K3,48 år,Ugift,19511
+97,2022K3,48 år,Gift/separeret,43576
+98,2022K3,49 år,Ugift,18906
+99,2022K3,49 år,Gift/separeret,44540
+100,2022K3,50 år,Ugift,18895
+101,2022K3,50 år,Gift/separeret,46444
+102,2022K3,51 år,Ugift,17366
+103,2022K3,51 år,Gift/separeret,44326
+104,2022K3,52 år,Ugift,16285
+105,2022K3,52 år,Gift/separeret,43267
+106,2022K3,53 år,Ugift,16177
+107,2022K3,53 år,Gift/separeret,43594
+108,2022K3,54 år,Ugift,16484
+109,2022K3,54 år,Gift/separeret,46301
+110,2022K3,55 år,Ugift,17439
+111,2022K3,55 år,Gift/separeret,49964
+112,2022K3,56 år,Ugift,16858
+113,2022K3,56 år,Gift/separeret,50302
+114,2022K3,57 år,Ugift,15833
+115,2022K3,57 år,Gift/separeret,48980
+116,2022K3,58 år,Ugift,15289
+117,2022K3,58 år,Gift/separeret,48182
+118,2022K3,59 år,Ugift,13984
+119,2022K3,59 år,Gift/separeret,45916
+120,2022K3,60 år,Ugift,13072
+121,2022K3,60 år,Gift/separeret,44924
+122,2022K3,61 år,Ugift,12141
+123,2022K3,61 år,Gift/separeret,43707
+124,2022K3,62 år,Ugift,11381
+125,2022K3,62 år,Gift/separeret,42979
+126,2022K3,63 år,Ugift,10561
+127,2022K3,63 år,Gift/separeret,42134
+128,2022K3,64 år,Ugift,10292
+129,2022K3,64 år,Gift/separeret,42510
+130,2022K3,65 år,Ugift,9694
+131,2022K3,65 år,Gift/separeret,41929
+132,2022K3,66 år,Ugift,8886
+133,2022K3,66 år,Gift/separeret,41381
+134,2022K3,67 år,Ugift,8235
+135,2022K3,67 år,Gift/separeret,40350
+136,2022K3,68 år,Ugift,7664
+137,2022K3,68 år,Gift/separeret,39719
+138,2022K3,69 år,Ugift,6960
+139,2022K3,69 år,Gift/separeret,40187
+140,2022K3,70 år,Ugift,6184
+141,2022K3,70 år,Gift/separeret,37724
+142,2022K3,71 år,Ugift,5466
+143,2022K3,71 år,Gift/separeret,37908
+144,2022K3,72 år,Ugift,5017
+145,2022K3,72 år,Gift/separeret,37980
+146,2022K3,73 år,Ugift,4496
+147,2022K3,73 år,Gift/separeret,37826
+148,2022K3,74 år,Ugift,4144
+149,2022K3,74 år,Gift/separeret,38536
+150,2022K3,75 år,Ugift,3866
+151,2022K3,75 år,Gift/separeret,39864
+152,2022K3,76 år,Ugift,3482
+153,2022K3,76 år,Gift/separeret,38302
+154,2022K3,77 år,Ugift,2914
+155,2022K3,77 år,Gift/separeret,34268
+156,2022K3,78 år,Ugift,2486
+157,2022K3,78 år,Gift/separeret,29873
+158,2022K3,79 år,Ugift,2032
+159,2022K3,79 år,Gift/separeret,25897
+160,2022K3,80 år,Ugift,1662
+161,2022K3,80 år,Gift/separeret,21809
+162,2022K3,81 år,Ugift,1472
+163,2022K3,81 år,Gift/separeret,17977
+164,2022K3,82 år,Ugift,1269
+165,2022K3,82 år,Gift/separeret,16075
+166,2022K3,83 år,Ugift,1168
+167,2022K3,83 år,Gift/separeret,13650
+168,2022K3,84 år,Ugift,990
+169,2022K3,84 år,Gift/separeret,11616
+170,2022K3,85 år,Ugift,894
+171,2022K3,85 år,Gift/separeret,9634
+172,2022K3,86 år,Ugift,729
+173,2022K3,86 år,Gift/separeret,7436
+174,2022K3,87 år,Ugift,608
+175,2022K3,87 år,Gift/separeret,5747
+176,2022K3,88 år,Ugift,506
+177,2022K3,88 år,Gift/separeret,4428
+178,2022K3,89 år,Ugift,466
+179,2022K3,89 år,Gift/separeret,3252
+180,2022K3,90 år,Ugift,380
+181,2022K3,90 år,Gift/separeret,2484
+182,2022K3,91 år,Ugift,293
+183,2022K3,91 år,Gift/separeret,1800
+184,2022K3,92 år,Ugift,235
+185,2022K3,92 år,Gift/separeret,1212
+186,2022K3,93 år,Ugift,218
+187,2022K3,93 år,Gift/separeret,864
+188,2022K3,94 år,Ugift,174
+189,2022K3,94 år,Gift/separeret,506
+190,2022K3,95 år,Ugift,120
+191,2022K3,95 år,Gift/separeret,346
+192,2022K3,96 år,Ugift,82
+193,2022K3,96 år,Gift/separeret,231
+194,2022K3,97 år,Ugift,72
+195,2022K3,97 år,Gift/separeret,129
+196,2022K3,98 år,Ugift,42
+197,2022K3,98 år,Gift/separeret,60
+198,2022K3,99 år,Ugift,20
+199,2022K3,99 år,Gift/separeret,39
+200,2022K3,100 år,Ugift,19
+201,2022K3,100 år,Gift/separeret,14
+202,2022K3,101 år,Ugift,19
+203,2022K3,101 år,Gift/separeret,9
+204,2022K3,102 år,Ugift,6
+205,2022K3,102 år,Gift/separeret,6
+206,2022K3,103 år,Ugift,3
+207,2022K3,103 år,Gift/separeret,2
+208,2022K3,104 år,Ugift,2
+209,2022K3,104 år,Gift/separeret,2
+210,2022K3,105 år,Ugift,0
+211,2022K3,105 år,Gift/separeret,0
+212,2022K3,106 år,Ugift,1
+213,2022K3,106 år,Gift/separeret,0
+214,2022K3,107 år,Ugift,0
+215,2022K3,107 år,Gift/separeret,0
+216,2022K3,108 år,Ugift,0
+217,2022K3,108 år,Gift/separeret,0
+218,2022K3,109 år,Ugift,0
+219,2022K3,109 år,Gift/separeret,0
+220,2022K3,110 år,Ugift,0
+221,2022K3,110 år,Gift/separeret,0
+222,2022K3,111 år,Ugift,0
+223,2022K3,111 år,Gift/separeret,0
+224,2022K3,112 år,Ugift,0
+225,2022K3,112 år,Gift/separeret,0
+226,2022K3,113 år,Ugift,0
+227,2022K3,113 år,Gift/separeret,0
+228,2022K3,114 år,Ugift,0
+229,2022K3,114 år,Gift/separeret,0
+230,2022K3,115 år,Ugift,0
+231,2022K3,115 år,Gift/separeret,0
+232,2022K3,116 år,Ugift,0
+233,2022K3,116 år,Gift/separeret,0
+234,2022K3,117 år,Ugift,0
+235,2022K3,117 år,Gift/separeret,0
+236,2022K3,118 år,Ugift,0
+237,2022K3,118 år,Gift/separeret,0
+238,2022K3,119 år,Ugift,0
+239,2022K3,119 år,Gift/separeret,0
+240,2022K3,120 år,Ugift,0
+241,2022K3,120 år,Gift/separeret,0
+242,2022K3,121 år,Ugift,0
+243,2022K3,121 år,Gift/separeret,0
+244,2022K3,122 år,Ugift,0
+245,2022K3,122 år,Gift/separeret,0
+246,2022K3,123 år,Ugift,0
+247,2022K3,123 år,Gift/separeret,0
+248,2022K3,124 år,Ugift,0
+249,2022K3,124 år,Gift/separeret,0
+250,2022K3,125 år,Ugift,0
+251,2022K3,125 år,Gift/separeret,0

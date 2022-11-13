@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>images</folder>
+	<filename>832338796_219ac2fc23.jpg</filename>
+	<path>E:\Development\Python\HardHatDetector\hardhat\validation\images\832338796_219ac2fc23.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person hardhat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>140</xmin>
+			<ymin>18</ymin>
+			<xmax>343</xmax>
+			<ymax>332</ymax>
+		</bndbox>
+	</object>
+</annotation>

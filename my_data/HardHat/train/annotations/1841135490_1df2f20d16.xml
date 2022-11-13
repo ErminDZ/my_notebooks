@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>hardhat-train</folder>
+	<filename>1841135490_1df2f20d16.jpg</filename>
+	<path>E:\Development\Python\HardHatDetector\hardhat-train\1841135490_1df2f20d16.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person hardhat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>295</xmin>
+			<ymin>131</ymin>
+			<xmax>344</xmax>
+			<ymax>194</ymax>
+		</bndbox>
+	</object>
+</annotation>
